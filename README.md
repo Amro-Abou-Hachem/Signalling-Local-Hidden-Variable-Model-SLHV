@@ -34,4 +34,6 @@ $$
 	\end{aligned}
 $$
 
-The implementation of this LP in Julia programming language can be found in 
+The implementation of this LP in Julia programming language can be found in the file Important_functions.jl. 
+
+The function calculate_visibility takes as an input the probability distribution and the allowed signalling parameters $\alpha$, $\beta$ and returns as an output the visibility $v$. It is optional to provide the determinstic strategies for the function as the function is programmed to calculate them automatically if not provided. 
